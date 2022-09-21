@@ -31,6 +31,7 @@ def user_create():
 
     return jsonify({'ping': "Pong"})
 
+
 @user_routes.route("/api/user/logout")
 def user_logout():
     logout_user()
