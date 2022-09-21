@@ -1,5 +1,4 @@
-from app import create_app, Room
-from app.models.room import db
+from app import create_app
 
 reservationsapi = create_app()
 
