@@ -20,7 +20,6 @@ def user_login():
 
     return jsonify({'ping': "Pong"})
 
-
 @user_routes.route("/api/user/create")
 def user_create():
 
